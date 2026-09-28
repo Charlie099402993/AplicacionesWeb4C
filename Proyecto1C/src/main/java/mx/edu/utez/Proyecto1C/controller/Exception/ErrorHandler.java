@@ -1,13 +1,7 @@
-package mx.edu.utez.Proyecto1C.Controller.Exception;
+package mx.edu.utez.Proyecto1C.controller.Exception;
 
-import org.springframework.http.ResponseEntity;
-import org.springframework.validation.FieldError;
-import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
-
-import java.util.LinkedHashMap;
-import java.util.Map;
 
 @RestControllerAdvice
 public class ErrorHandler {
